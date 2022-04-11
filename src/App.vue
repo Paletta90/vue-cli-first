@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <TitleBoolean/>
+    <HeroBoolean/>
   </div>
 </template>
 
 <script>
 import TitleBoolean from './components/TitleBoolean.vue'
+import HeroBoolean from './components/HeroBoolean.vue'
 
 export default {
   name: 'App',
   components: {
-    TitleBoolean
+    TitleBoolean,
+    HeroBoolean
   }
 }
 </script>
